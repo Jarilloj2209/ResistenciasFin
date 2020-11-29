@@ -1,0 +1,7 @@
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias.dir
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/KF5WidgetsAddons_QCH.dir
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/KF5CoreAddons_QCH.dir
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/KF5I18n_QCH.dir
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias_autogen.dir

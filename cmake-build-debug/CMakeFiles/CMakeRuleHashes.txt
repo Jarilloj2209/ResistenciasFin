@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+a4693ecf4f1d94494a78ec52f31b187a ../Resistencias_es_MX.ts
+8ce384ecb03855cac5079acd3d453994 CMakeFiles/Resistencias_autogen

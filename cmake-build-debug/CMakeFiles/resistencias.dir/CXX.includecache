@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Mainwindow.cpp
+Mainwindow.h
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Mainwindow.h
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Mainwindow.h
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias.cpp
+Resistencias.h
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias.h
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias.h
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/leyohm.cpp
+leyohm.h
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/leyohm.h
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/leyohm.h
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/resistencias_autogen/mocs_compilation.cpp
+
+/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/main.cpp
+iostream
+-
+

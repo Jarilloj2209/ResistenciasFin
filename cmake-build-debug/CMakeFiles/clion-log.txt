@@ -1,0 +1,19 @@
+/opt/apps/com.jetbrains.clion/files/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias
+-- The following REQUIRED packages have been found:
+
+ * ECM (required version >= 1.0.0)
+ * QT
+ * Qt5Gui (required version >= 5.11.3)
+ * Qt5LinguistTools
+ * Qt5
+ * Qt5Core (required version >= 5.9.0)
+ * KF5CoreAddons (required version >= 5.2.0)
+ * Gettext
+ * KF5I18n (required version >= 5.2.0)
+ * KF5 (required version >= 5.2.0)
+ * Qt5Widgets (required version >= 5.9.0)
+ * KF5WidgetsAddons
+
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug
