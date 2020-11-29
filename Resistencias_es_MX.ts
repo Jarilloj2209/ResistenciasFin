@@ -5,54 +5,63 @@
     <name>Dialog</name>
     <message>
         <location filename="leyohm.ui" line="14"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="82"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="82"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="26"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="83"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="83"/>
         <source>Resistencia</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="39"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="84"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="84"/>
         <source>Voltaje</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="52"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="85"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="85"/>
         <source>Corriente</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="95"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="86"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="86"/>
         <source>Ohms</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="108"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="87"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="87"/>
         <source>Volts</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="121"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="88"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="88"/>
         <source>Amperes</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="134"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="89"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="89"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="leyohm.ui" line="147"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/Resistencias_autogen/include/ui_leyohm.h" line="90"/>
         <location filename="cmake-build-debug/Resistencias_autogen/include/ui_leyohm.h" line="90"/>
         <source>Calcular</source>
         <translation type="unfinished"></translation>

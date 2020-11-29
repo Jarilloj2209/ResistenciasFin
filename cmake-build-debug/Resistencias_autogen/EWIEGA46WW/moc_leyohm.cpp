@@ -20,25 +20,25 @@
 QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
-struct qt_meta_stringdata_ohm_t {
+struct qt_meta_stringdata_leyohm_t {
     QByteArrayData data[1];
-    char stringdata0[4];
+    char stringdata0[7];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
-    qptrdiff(offsetof(qt_meta_stringdata_ohm_t, stringdata0) + ofs \
+    qptrdiff(offsetof(qt_meta_stringdata_leyohm_t, stringdata0) + ofs \
         - idx * sizeof(QByteArrayData)) \
     )
-static const qt_meta_stringdata_ohm_t qt_meta_stringdata_ohm = {
+static const qt_meta_stringdata_leyohm_t qt_meta_stringdata_leyohm = {
     {
-QT_MOC_LITERAL(0, 0, 3) // "ohm"
+QT_MOC_LITERAL(0, 0, 6) // "leyohm"
 
     },
-    "ohm"
+    "leyohm"
 };
 #undef QT_MOC_LITERAL
 
-static const uint qt_meta_data_ohm[] = {
+static const uint qt_meta_data_leyohm[] = {
 
  // content:
        7,       // revision
@@ -54,7 +54,7 @@ static const uint qt_meta_data_ohm[] = {
        0        // eod
 };
 
-void ohm::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
+void leyohm::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **_a)
 {
     Q_UNUSED(_o);
     Q_UNUSED(_id);
@@ -62,26 +62,26 @@ void ohm::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, void **
     Q_UNUSED(_a);
 }
 
-QT_INIT_METAOBJECT const QMetaObject ohm::staticMetaObject = {
-    { &QDialog::staticMetaObject, qt_meta_stringdata_ohm.data,
-      qt_meta_data_ohm,  qt_static_metacall, nullptr, nullptr}
+QT_INIT_METAOBJECT const QMetaObject leyohm::staticMetaObject = {
+    { &QDialog::staticMetaObject, qt_meta_stringdata_leyohm.data,
+      qt_meta_data_leyohm,  qt_static_metacall, nullptr, nullptr}
 };
 
 
-const QMetaObject *ohm::metaObject() const
+const QMetaObject *leyohm::metaObject() const
 {
     return QObject::d_ptr->metaObject ? QObject::d_ptr->dynamicMetaObject() : &staticMetaObject;
 }
 
-void *ohm::qt_metacast(const char *_clname)
+void *leyohm::qt_metacast(const char *_clname)
 {
     if (!_clname) return nullptr;
-    if (!strcmp(_clname, qt_meta_stringdata_ohm.stringdata0))
+    if (!strcmp(_clname, qt_meta_stringdata_leyohm.stringdata0))
         return static_cast<void*>(this);
     return QDialog::qt_metacast(_clname);
 }
 
-int ohm::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
+int leyohm::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 {
     _id = QDialog::qt_metacall(_c, _id, _a);
     return _id;

@@ -5,6 +5,7 @@ CMakeFiles/Resistencias.dir/Mainwindow.cpp.o
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Mainwindow.cpp
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Mainwindow.h
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias.h
+ /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/leyohm.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
@@ -96,12 +97,16 @@ CMakeFiles/Resistencias.dir/Mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -113,11 +118,14 @@ CMakeFiles/Resistencias.dir/Mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenu
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMenuBar
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QWidget
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qaction.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qactiongroup.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
@@ -125,9 +133,11 @@ CMakeFiles/Resistencias.dir/Mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenu.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmenubar.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qstatusbar.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
@@ -135,6 +145,7 @@ CMakeFiles/Resistencias.dir/Mainwindow.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
  Resistencias_autogen/include/ui_MainWindow.h
+ Resistencias_autogen/include/ui_leyohm.h
 CMakeFiles/Resistencias.dir/Resistencias.cpp.o
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Mainwindow.h
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias.cpp
@@ -291,7 +302,10 @@ CMakeFiles/Resistencias.dir/Resistencias_autogen/mocs_compilation.cpp.o
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias.h
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias_autogen/EWIEGA46WW/moc_Mainwindow.cpp
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias_autogen/EWIEGA46WW/moc_Resistencias.cpp
+ /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias_autogen/EWIEGA46WW/moc_leyohm.cpp
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias_autogen/mocs_compilation.cpp
+ /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/leyohm.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/QVariant
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qalgorithms.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qarraydata.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qatomic.h
@@ -307,9 +321,11 @@ CMakeFiles/Resistencias.dir/Resistencias_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qconfig.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontainerfwd.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcontiguouscache.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qcoreevent.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdatastream.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qdebug.h
+ /usr/include/x86_64-linux-gnu/qt5/QtCore/qeventloop.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfile.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qfiledevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtCore/qflags.h
@@ -371,19 +387,25 @@ CMakeFiles/Resistencias.dir/Resistencias_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfont.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontinfo.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qfontmetrics.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qguiapplication.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qicon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qimage.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qinputmethod.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qkeysequence.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qmatrix.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpaintdevice.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpainterpath.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpalette.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qpen.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixelformat.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpixmap.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qpolygon.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qregion.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgb.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qrgba64.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextcursor.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextformat.h
+ /usr/include/x86_64-linux-gnu/qt5/QtGui/qtextoption.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtgui-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtguiglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qtouchdevice.h
@@ -391,15 +413,27 @@ CMakeFiles/Resistencias.dir/Resistencias_autogen/mocs_compilation.cpp.o
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qvector2d.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs.h
  /usr/include/x86_64-linux-gnu/qt5/QtGui/qwindowdefs_win.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QApplication
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QDialog
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMainWindow
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qabstractbutton.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qapplication.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdesktopwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qdialog.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qframe.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlabel.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlineedit.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qmainwindow.h
+ /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qpushbutton.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qsizepolicy.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtabwidget.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgets-config.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qtwidgetsglobal.h
  /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qwidget.h
+ Resistencias_autogen/include/ui_leyohm.h
 CMakeFiles/Resistencias.dir/leyohm.cpp.o
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/leyohm.cpp
  /home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/leyohm.h

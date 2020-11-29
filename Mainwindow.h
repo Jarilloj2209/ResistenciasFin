@@ -25,5 +25,6 @@ private:
 protected:
 
     void show_Resistencias();
+    void show_leyohm();
 };
 #endif //RESISTENCIAS_MAINWINDOW_H
