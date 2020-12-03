@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Mainwindow.cpp" "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias.dir/Mainwindow.cpp.o"
   "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias.cpp" "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias.dir/Resistencias.cpp.o"
+  "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias2.cpp" "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias.dir/Resistencias2.cpp.o"
   "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/Resistencias_autogen/mocs_compilation.cpp" "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias.dir/Resistencias_autogen/mocs_compilation.cpp.o"
   "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/leyohm.cpp" "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias.dir/leyohm.cpp.o"
   "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/main.cpp" "/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/cmake-build-debug/CMakeFiles/Resistencias.dir/main.cpp.o"

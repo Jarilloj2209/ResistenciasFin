@@ -5,6 +5,7 @@
 #include "Mainwindow.h"
 #include "./ui_MainWindow.h"
 #include "Resistencias.h"
+#include "Resistencias2.h"
 #include "leyohm.h"
 
 MainWindow::MainWindow(QWidget *parent)
@@ -21,6 +22,9 @@ MainWindow::MainWindow(QWidget *parent)
     connect(ui->actionValor, &QAction::triggered,
             this, &MainWindow::show_Resistencias);
 
+    connect(ui->actionResistencias_a_valor, &QAction::triggered,
+            this, &MainWindow::show_Resistencias2);
+
     connect(ui->actionColor, &QAction::triggered,
             this, &MainWindow::show_leyohm);
 }
@@ -33,6 +37,12 @@ MainWindow::~MainWindow()
 void MainWindow::show_Resistencias()
 {
     Resistenciasven res;
+    res.exec();
+}
+
+void MainWindow::show_Resistencias2()
+{
+    Resistenciasven2 res;
     res.exec();
 }
 void MainWindow::show_leyohm()

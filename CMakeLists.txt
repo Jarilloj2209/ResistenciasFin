@@ -36,6 +36,9 @@ add_executable(Resistencias
         Resistencias.cpp
         Resistencias.h
         Resistencias.ui
+        Resistencias2.cpp
+        Resistencias2.h
+        Resistencias2.ui
         leyohm.cpp
         leyohm.h
         leyohm.ui

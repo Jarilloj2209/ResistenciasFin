@@ -71,31 +71,37 @@
     <name>MainWindow</name>
     <message>
         <location filename="MainWindow.ui" line="14"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="71"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="75"/>
         <source>MainWindow</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="MainWindow.ui" line="27"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="74"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="79"/>
         <source>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;Escoja el modo de&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;conversión en el &lt;/p&gt;&lt;p align=&quot;center&quot;&gt;submenu superior&lt;/p&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="MainWindow.ui" line="42"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="75"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="80"/>
         <source>Modo</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="52"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="72"/>
-        <source>Resistencias</source>
+        <location filename="MainWindow.ui" line="53"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="76"/>
+        <source>Resistencias a color</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="MainWindow.ui" line="57"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="73"/>
+        <location filename="MainWindow.ui" line="63"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="78"/>
+        <source>Resistencias a valor</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="MainWindow.ui" line="58"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_MainWindow.h" line="77"/>
         <source>Ley de Ohm</source>
         <translation type="unfinished"></translation>
     </message>
@@ -104,48 +110,113 @@
     <name>Resistenciasven</name>
     <message>
         <location filename="Resistencias.ui" line="14"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="103"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="99"/>
         <source>Dialog</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Resistencias.ui" line="26"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="104"/>
-        <source>Convertir 
-a valor
-</source>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="100"/>
+        <source>Converitr</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Resistencias.ui" line="41"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="107"/>
+        <location filename="Resistencias.ui" line="39"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="101"/>
         <source>Ok</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Resistencias.ui" line="169"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="108"/>
+        <location filename="Resistencias.ui" line="167"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="102"/>
         <source>Valor:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Resistencias.ui" line="192"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="109"/>
+        <location filename="Resistencias.ui" line="190"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="103"/>
         <source>4 Bandas</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Resistencias.ui" line="205"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="110"/>
+        <location filename="Resistencias.ui" line="203"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="104"/>
+        <source>5 Bandas</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
+    <name>Resistenciasven2</name>
+    <message>
+        <location filename="Resistencias2.ui" line="14"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="110"/>
+        <source>Dialog</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="26"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="111"/>
+        <source>Converitr</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="39"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="112"/>
+        <source>Ok</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="167"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="113"/>
+        <source>Valor:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="190"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="114"/>
+        <source>4 Bandas</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="203"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="115"/>
         <source>5 Bandas</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="Resistencias.ui" line="218"/>
-        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias.h" line="111"/>
-        <source>Convertir
-a color
-</source>
+        <location filename="Resistencias2.ui" line="217"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="116"/>
+        <source>10%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="222"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="117"/>
+        <source>5%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="227"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="118"/>
+        <source>1%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="232"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="119"/>
+        <source>0.5%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="237"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="120"/>
+        <source>0.25%</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="Resistencias2.ui" line="242"/>
+        <location filename="cmake-build-debug/Resistencias_autogen/include/ui_Resistencias2.h" line="121"/>
+        <source>0.1%</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

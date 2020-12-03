@@ -27,6 +27,7 @@ private:
     void bands_5();
     void bands_4();
     void Col_Val();
+    void Val_Col();
     std::basic_string<char> B1();
     std::basic_string<char> B2();
     std::basic_string<char> B3();

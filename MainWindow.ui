@@ -42,6 +42,7 @@
      <string>Modo</string>
     </property>
     <addaction name="actionValor"/>
+    <addaction name="actionResistencias_a_valor"/>
     <addaction name="actionColor"/>
    </widget>
    <addaction name="menuValor"/>
@@ -49,12 +50,17 @@
   <widget class="QStatusBar" name="statusbar"/>
   <action name="actionValor">
    <property name="text">
-    <string>Resistencias</string>
+    <string>Resistencias a color</string>
    </property>
   </action>
   <action name="actionColor">
    <property name="text">
     <string>Ley de Ohm</string>
+   </property>
+  </action>
+  <action name="actionResistencias_a_valor">
+   <property name="text">
+    <string>Resistencias a valor</string>
    </property>
   </action>
  </widget>

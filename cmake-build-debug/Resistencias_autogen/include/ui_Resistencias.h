@@ -34,7 +34,6 @@ public:
     QLineEdit *ValorC;
     QRadioButton *B4;
     QRadioButton *B5;
-    QPushButton *Val_Col;
 
     void setupUi(QDialog *Resistenciasven)
     {
@@ -89,9 +88,6 @@ public:
         B5 = new QRadioButton(Resistenciasven);
         B5->setObjectName(QStringLiteral("B5"));
         B5->setGeometry(QRect(110, 60, 115, 24));
-        Val_Col = new QPushButton(Resistenciasven);
-        Val_Col->setObjectName(QStringLiteral("Val_Col"));
-        Val_Col->setGeometry(QRect(240, 50, 111, 41));
 
         retranslateUi(Resistenciasven);
 
@@ -101,16 +97,11 @@ public:
     void retranslateUi(QDialog *Resistenciasven)
     {
         Resistenciasven->setWindowTitle(QApplication::translate("Resistenciasven", "Dialog", nullptr));
-        Col_Val->setText(QApplication::translate("Resistenciasven", "Convertir \n"
-"a valor\n"
-"", nullptr));
+        Col_Val->setText(QApplication::translate("Resistenciasven", "Converitr", nullptr));
         Ok_Res->setText(QApplication::translate("Resistenciasven", "Ok", nullptr));
         label->setText(QApplication::translate("Resistenciasven", "Valor:", nullptr));
         B4->setText(QApplication::translate("Resistenciasven", "4 Bandas", nullptr));
         B5->setText(QApplication::translate("Resistenciasven", "5 Bandas", nullptr));
-        Val_Col->setText(QApplication::translate("Resistenciasven", "Convertir\n"
-"a color\n"
-"", nullptr));
     } // retranslateUi
 
 };

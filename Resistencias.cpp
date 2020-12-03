@@ -25,6 +25,7 @@ Resistenciasven::Resistenciasven(QWidget *parent)
             this, &Resistenciasven::show_menu);
     connect(ui->Col_Val, &QPushButton::clicked,
             this, &Resistenciasven::Col_Val);
+
 }
 Resistenciasven::~Resistenciasven()
 {
@@ -37,6 +38,7 @@ void Resistenciasven::bands_4() {
 void Resistenciasven::bands_5()
 {
     ui->kColor5->setVisible(1);
+    ui->ValorC->setPlaceholderText("Valor Resistencia");
     QList<QColor> colors;
     colors.append(Colores::Negro);       // NEGRO
     colors.append(Colores::Marron);  // MARRÓN
@@ -136,6 +138,8 @@ void Resistenciasven::Col_Val() {
         ui->ValorC->setText("Elige No. Bandas");
     }
 }
+////////////
+
 
 ///////////////////////////////////////////////
 basic_string<char> Resistenciasven::B1(){
@@ -385,5 +389,5 @@ void Resistenciasven::show_menu()
 {
     cout<<"Cerrando ventana resistencias"<<endl;
     Resistenciasven res;
-    res.close();
+    res.done(0);
 }

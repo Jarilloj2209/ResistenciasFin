@@ -26,6 +26,7 @@ class Ui_MainWindow
 public:
     QAction *actionValor;
     QAction *actionColor;
+    QAction *actionResistencias_a_valor;
     QWidget *centralwidget;
     QLabel *label;
     QMenuBar *menubar;
@@ -41,6 +42,8 @@ public:
         actionValor->setObjectName(QStringLiteral("actionValor"));
         actionColor = new QAction(MainWindow);
         actionColor->setObjectName(QStringLiteral("actionColor"));
+        actionResistencias_a_valor = new QAction(MainWindow);
+        actionResistencias_a_valor->setObjectName(QStringLiteral("actionResistencias_a_valor"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         label = new QLabel(centralwidget);
@@ -59,6 +62,7 @@ public:
 
         menubar->addAction(menuValor->menuAction());
         menuValor->addAction(actionValor);
+        menuValor->addAction(actionResistencias_a_valor);
         menuValor->addAction(actionColor);
 
         retranslateUi(MainWindow);
@@ -69,8 +73,9 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", nullptr));
-        actionValor->setText(QApplication::translate("MainWindow", "Resistencias", nullptr));
+        actionValor->setText(QApplication::translate("MainWindow", "Resistencias a color", nullptr));
         actionColor->setText(QApplication::translate("MainWindow", "Ley de Ohm", nullptr));
+        actionResistencias_a_valor->setText(QApplication::translate("MainWindow", "Resistencias a valor", nullptr));
         label->setText(QApplication::translate("MainWindow", "<html><head/><body><p align=\"center\">Escoja el modo de</p><p align=\"center\">conversi\303\263n en el </p><p align=\"center\">submenu superior</p><p align=\"center\"><br/></p></body></html>", nullptr));
         menuValor->setTitle(QApplication::translate("MainWindow", "Modo", nullptr));
     } // retranslateUi

@@ -229,6 +229,33 @@ Resistencias.cpp.s:
 	$(MAKE) -f CMakeFiles/Resistencias.dir/build.make CMakeFiles/Resistencias.dir/Resistencias.cpp.s
 .PHONY : Resistencias.cpp.s
 
+Resistencias2.o: Resistencias2.cpp.o
+
+.PHONY : Resistencias2.o
+
+# target to build an object file
+Resistencias2.cpp.o:
+	$(MAKE) -f CMakeFiles/Resistencias.dir/build.make CMakeFiles/Resistencias.dir/Resistencias2.cpp.o
+.PHONY : Resistencias2.cpp.o
+
+Resistencias2.i: Resistencias2.cpp.i
+
+.PHONY : Resistencias2.i
+
+# target to preprocess a source file
+Resistencias2.cpp.i:
+	$(MAKE) -f CMakeFiles/Resistencias.dir/build.make CMakeFiles/Resistencias.dir/Resistencias2.cpp.i
+.PHONY : Resistencias2.cpp.i
+
+Resistencias2.s: Resistencias2.cpp.s
+
+.PHONY : Resistencias2.s
+
+# target to generate assembly for a file
+Resistencias2.cpp.s:
+	$(MAKE) -f CMakeFiles/Resistencias.dir/build.make CMakeFiles/Resistencias.dir/Resistencias2.cpp.s
+.PHONY : Resistencias2.cpp.s
+
 Resistencias_autogen/mocs_compilation.o: Resistencias_autogen/mocs_compilation.cpp.o
 
 .PHONY : Resistencias_autogen/mocs_compilation.o
@@ -329,6 +356,9 @@ help:
 	@echo "... Resistencias.o"
 	@echo "... Resistencias.i"
 	@echo "... Resistencias.s"
+	@echo "... Resistencias2.o"
+	@echo "... Resistencias2.i"
+	@echo "... Resistencias2.s"
 	@echo "... Resistencias_autogen/mocs_compilation.o"
 	@echo "... Resistencias_autogen/mocs_compilation.i"
 	@echo "... Resistencias_autogen/mocs_compilation.s"

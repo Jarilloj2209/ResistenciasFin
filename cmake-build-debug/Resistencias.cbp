@@ -168,6 +168,15 @@
 		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias.ui">
 			<Option target="Resistencias"/>
 		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias2.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias2.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias2.ui">
+			<Option target="Resistencias"/>
+		</Unit>
 		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistencias/Resistencias_es_MX.ts">
 			<Option target="Resistencias"/>
 		</Unit>

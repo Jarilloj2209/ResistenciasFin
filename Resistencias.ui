@@ -23,9 +23,7 @@
     </rect>
    </property>
    <property name="text">
-    <string>Convertir 
-a valor
-</string>
+    <string>Converitr</string>
    </property>
   </widget>
   <widget class="QPushButton" name="Ok_Res">
@@ -203,21 +201,6 @@ a valor
    </property>
    <property name="text">
     <string>5 Bandas</string>
-   </property>
-  </widget>
-  <widget class="QPushButton" name="Val_Col">
-   <property name="geometry">
-    <rect>
-     <x>240</x>
-     <y>50</y>
-     <width>111</width>
-     <height>41</height>
-    </rect>
-   </property>
-   <property name="text">
-    <string>Convertir
-a color
-</string>
    </property>
   </widget>
  </widget>
