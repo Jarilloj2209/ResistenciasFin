@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Resistencias"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\usr\share\;CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\;CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\modules\;CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\find-modules\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\;CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Resistencias">
+				<Option output="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Resistencias" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+					<Add directory="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin"/>
+					<Add directory="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Resistencias_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/KF5/KWidgetsAddons"/>
+					<Add directory="/usr/include/KF5"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 Resistencias"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Resistencias/fast">
+				<Option output="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Resistencias" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DQT_WIDGETS_LIB"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add directory="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+					<Add directory="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin"/>
+					<Add directory="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Resistencias_autogen/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtWidgets"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtGui"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/qt5/QtCore"/>
+					<Add directory="/usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++"/>
+					<Add directory="/usr/include/KF5/KWidgetsAddons"/>
+					<Add directory="/usr/include/KF5"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 Resistencias/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF5WidgetsAddons_QCH">
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF5WidgetsAddons_QCH"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF5CoreAddons_QCH">
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF5CoreAddons_QCH"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="KF5I18n_QCH">
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 KF5I18n_QCH"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Resistencias_autogen">
+				<Option working_dir="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 Resistencias_autogen"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Iniciar_Bandas.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Iniciar_Bandas.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Iniciar_BandasT.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Iniciar_BandasT.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/MainWindow.ui">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Mainwindow.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Mainwindow.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias.ui">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias2.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias2.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias2.ui">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias_es_MX.ts">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Resistencias_es_MX.ts.rule">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Trabajo_Bandas.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Trabajo_Bandas.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Trabajo_Bandas2.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/Trabajo_Bandas2.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/cmake-build-debug/Resistencias_autogen/mocs_compilation.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/leyohm.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/leyohm.h">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/leyohm.ui">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/main.cpp">
+			<Option target="Resistencias"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/share/ECM/cmake/ECMConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/share/ECM/cmake/ECMConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\cmake\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/share/ECM/modules/ECMFindModuleHelpers.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\modules\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/share/ECM/modules/ECMUseFindModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\modules\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/share/ECM/find-modules/ECMFindModuleHelpersStub.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\find-modules\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/share/ECM/find-modules/FindKF5.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\share\ECM\find-modules\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5/Qt5ModuleLocation.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Widgets\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Gui\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5Core/Qt5CoreMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5Core\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\Qt5LinguistTools\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsQchTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5CoreAddons/KF5CoreAddonsToolingTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5CoreAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nMacros.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nQchTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5I18n/KF5I18nTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5I18n\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsQchTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets-debian.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+		<Unit filename="/home/jarillo/Desktop/Arqui/Gráfico/Resistencias/Mi_Resistencias/Resistenciasfin/../../../../../../../../usr/lib/x86_64-linux-gnu/cmake/KF5WidgetsAddons/KF5WidgetsAddonsTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\KF5WidgetsAddons\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
